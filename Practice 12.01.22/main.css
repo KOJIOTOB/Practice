@@ -1,0 +1,41 @@
+/*
+body {
+  margin: 0;
+}*/
+
+.lesson {
+    font-size: 30px;
+    background: #8a2221;
+    color: #f8e9de;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.text1 {
+    min-height: 50px;
+    background: #c1c1c1;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.text2 {
+    background: #6396ed;
+    padding: 40px 0 40px 0;
+
+}
+
+.block1 {
+    width: 200px;
+    height: 200px;
+    background: #6bbb67;
+}
+
+.block2 {
+    width: 200px;
+    height: 200px;
+    background: #8987ad;
+    border-radius: 20px;
+}
