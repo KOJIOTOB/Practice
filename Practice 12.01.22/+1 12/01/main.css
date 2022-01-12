@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px;
+    grid-column-gap: 10px;
+    width: 1000px;
+    grid-gap: 3em;
+    font-size: 45px;
+    margin: 100px auto;
+}
+
+.item {
+    background: #ffac00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.shadow-a {
+    box-shadow: 25px 25px 0 #444444;
+}
+
+.shadow-b {
+    box-shadow:  25px 25px 5px #444444;
+}
+
+.shadow-c {
+    box-shadow:  30px 30px 10px #444444;
+}
+
+.shadow-d {
+    box-shadow:  35px 35px 10px #9f9f9f;
+}
+
+.shadow-e {
+    border-radius: 10px;
+    box-shadow:  25px 25px 10px #444444;
+}
+
+.shadow-f {
+    border-radius: 10px;
+    box-shadow:  25px 25px 10px #9f9f9f;
+}
