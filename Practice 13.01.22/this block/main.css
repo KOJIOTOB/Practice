@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+p {
+    margin-left: 20px;
+
+
+}
+
+.container {
+    margin: 100px 100px;
+    width: 600px;
+}
+
+.block-grey {
+    height: 300px;
+    width: 600px;
+    background: #818181;
+    box-shadow: -34px -35px 50px 27px #dcc3a4 ;
+}
+
+.this-block {
+    font-size: 18px;
+    line-height: 8px;
+    margin-top: 40px;
+    border-left: 5px solid #fe0000;
+    height: 115px;
+}
