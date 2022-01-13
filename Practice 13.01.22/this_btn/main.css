@@ -9,8 +9,7 @@ body {
     justify-content: center;
     grid-gap: 2em;
     width: 200px;
-    height: 600px;
-    margin: 500px auto;
+    margin: 200px auto;
 }
 
 .btn {
