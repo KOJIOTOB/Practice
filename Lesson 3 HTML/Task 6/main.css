@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width:640px;
+    height: 1090px;
+    margin: 50px auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home {
+    width: 310px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    background: #1c69bc;
+}
+
+.about {
+    width: 310px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    background: #1c69bc;
+}
+
+.main {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    background: #1c69bc;
+    margin-top: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.shishkabobs {
+    height: 250px;
+    width: 200px;
+    background: #0e437b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+}
+
+.bbq {
+    height: 250px;
+    width: 200px;
+    background: #0e437b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+}
+
+.summer {
+    height: 250px;
+    width: 200px;
+    background: #0e437b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+}
