@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 980px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto;
+    font-family: 'Inter', sans-serif;
+}
+
+.block1 {
+    border: 2px solid #bcbdbd;
+    width: 300px;
+    height: 400px;
+    margin-top: 100px;
+}
+
+.icon {
+    border: 2px solid #bcbdbd;
+    width: 100px;
+    height: 100px;
+    margin: -70px auto;
+    border-radius: 50%;
+    background: white;
+}
+
+.fa-desktop {
+    color: #ed920c;
+    font-size: 30px;
+    position: relative;
+    left: 32px;
+    top: 35px;
+}
+
+.fa-futbol {
+    color: #ed920c;
+    font-size: 30px;
+    position: relative;
+    left: 35px;
+    top: 35px;
+}
+
+.fa-glass-martini {
+    color: #ed920c;
+    font-size: 30px;
+    position: relative;
+    left: 35px;
+    top: 35px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 110px;
+    font-size: 25px;
+    color: #2b2f3c;
+}
+
+.text {
+    position: relative;
+    top: 140px;
+    font-size: 18px;
+    color: #bcbdbd;
+    line-height: 15px;
+    margin-left: 40px;
+
+}
+
+.text3 {
+    margin-left: 30px;
+}
+
+.text2 {
+    margin-left: 5px;
+}
+
+.btn-a {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 220px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    border: 2px solid #343434;
+    color: #2b2f3c;
+    font-size: 20px;
+    text-decoration: none;
+}
