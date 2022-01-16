@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    margin: 0;
+}
+
+p {
+    margin-top: 30px;
+}
+
+.container {
+    height: 1500px;
+    width: 1010px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    height: 100px;
+    background: #54d5eb;
+    font-size: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.hero {
+    height: 400px;
+    width: 400px;
+    background: #d7c9e3;
+    font-size: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    height: 600px;
+    width: 600px;
+    background: #f5c632;
+    font-size: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.block2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar {
+    height: 500px;
+    width: 400px;
+    background: #9fc363;
+    position: relative;
+    bottom: 190px;
+    font-size: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+
+}
+
+.extra {
+    height: 300px;
+    width: 600px;
+    background: #898989;
+    font-size: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.block3 {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 180px;
+}
+
+.related {
+    height: 200px;
+    width: 700px;
+    background: #2bb673;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: #fff;
+}
+
+.posts {
+    height: 200px;
+    width: 300px;
+    background: #f3ccde;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: #fff;
+}
+
+.footer {
+    width: 1010px;
+    height: 100px;
+    background: #fea500;
+    position: relative;
+    bottom: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #fff;
+}
