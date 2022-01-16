@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+    background: #01bdd5;
+}
+
+.container {
+    width: 1400px;
+    height: 660px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+}
+
+.block1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-1 {
+    border-radius: 15px;
+    height: 200px;
+    width: 49%;
+    background: #fefefe;
+
+}
+
+.card-2 {
+    border-radius: 15px;
+    height: 200px;
+    width: 49%;
+    background: #fefefe;
+}
+
+.text-card {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text1 {
+    width: 460px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #9a9a9a;
+    position: relative;
+    left: 18px;
+}
+
+.title1 {
+    display: flex;
+    justify-content: center;
+    color: #fba730;
+    position: relative;
+    top: 20px;
+    font-weight: 600;
+    right: 68px;
+}
+
+.title2 {
+    display: flex;
+    justify-content: center;
+    color: #fba730;
+    position: relative;
+    top: 20px;
+    font-weight: 600;
+    right: 50px;
+}
+
+.title3 {
+    display: flex;
+    justify-content: center;
+    color: #fba730;
+    position: relative;
+    top: 20px;
+    font-weight: 600;
+    right: 34px;
+}
+
+.title4 {
+    display: flex;
+    justify-content: center;
+    color: #fba730;
+    position: relative;
+    top: 20px;
+    font-weight: 600;
+    right: 13px;
+}
+
+.title5 {
+    display: flex;
+    justify-content: center;
+    color: #fba730;
+    position: relative;
+    top: 20px;
+    font-weight: 600;
+    right: 15px;
+}
+
+.title6 {
+    display: flex;
+    justify-content: center;
+    color: #fba730;
+    position: relative;
+    top: 20px;
+    font-weight: 600;
+    left: 6px;
+}
+
+.icon1 {
+    font-size: 60px;
+    color: #969696;
+}
