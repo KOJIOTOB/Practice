@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 700px;
+    height: 1260px;
+    margin: 20px auto;
+    font-size: 40px;
+    color: white;
+}
+
+.ds-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h300 {
+    height: 300px;
+}
+
+.h620 {
+    height: 620px;
+}
+
+.w220 {
+    width: 220px;
+
+}
+
+.h300 {
+    height: 300px;
+}
+
+.bg-dark-blue {
+    background: #0e437b;
+}
+
+.col-blau {
+    background: #1c69bc;
+}
+
+.block-big {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.contact {
+    margin-top: 20px;
+}
