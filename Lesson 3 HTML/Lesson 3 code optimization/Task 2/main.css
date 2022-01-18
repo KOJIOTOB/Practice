@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+/*
+body {
+margin: 0;
+}
+*/
+
+.container {
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+    font-size: 40px;
+}
+
+.h200 {height: 200px;}
+
+.h825 {height: 825px;}
+
+.h400 {height: 400px;}
+
+.br-sol-3px {border: 3px solid black;}
+
+.w80prc {
+    width: 80%;
+}
+
+.w18prc {
+    width: 18%;
+}
+
+.ds-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-yellow {
+    background: #e7f7b2;
+}
+
+.ds-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.menu {
+    background: #ffb8ff;
+    margin-top: 20px;
+}
+
+.block-post {
+    position: relative;
+    bottom: 830px;
+}
+
+.post1 {
+    background: #a0e3ff;
+}
+
+.post2 {
+    background: #a0e3ff;
+    margin-top: 20px;
+}
+
+.footer {
+    background: #ffffcb;
+    position: relative;
+    bottom: 810px;
+}
