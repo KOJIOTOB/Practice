@@ -38,7 +38,6 @@ a {
 
 .nav-menu>a:hover {
     cursor: pointer;
-
     color: #F9C600;
 }
 
@@ -709,8 +708,9 @@ a {
     color: #0B2330;
 }
 
-.btn_integrations>a:hover {
-    color: #ffffff;
+.btn_integrations:hover {
+    box-shadow: 0 0 20px 0 rgb(249, 198, 0);
+    transition: box-shadow 0.5s, transform 0.5s;
 }
 
 .box_case-study {
@@ -773,7 +773,16 @@ a {
     color: #0B2330;
 }
 
+.btn_read-more {
+    transform: scale(1);
+    box-shadow: 0 0 5px 5px rgba(34, 60, 80, 0.2);
+    transition: box-shadow 0.5s, transform 0.5s;
+}
 
+.btn_read-more:hover {
+    box-shadow: 0 0 15px 7px rgba(34, 60, 80, 0.2);
+    transition: box-shadow 0.5s, transform 0.5s;
+}
 
 .block_yellow-hero {
     width: 794px;
@@ -804,7 +813,7 @@ a {
 
 .footer {
     width: 1400px;
-    height: 1097px;
+    height: 1000px;
     background: #0B2330;
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
@@ -860,8 +869,10 @@ a {
     color: #0B2330;
 }
 
-.btn_footer>a:hover {
-    color: #FFFFFF;
+
+.btn_footer:hover {
+    box-shadow: 0 0 15px 0 rgb(249, 198, 0);
+    transition: box-shadow 0.5s, transform 0.5s;
 }
 
 .link_grey_footer {
@@ -869,6 +880,62 @@ a {
     height: 1px;
     background: #375361;
     margin: 95px auto;
+}
+
+.sprig_footer {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin-left: 32px;
+}
+
+.logo_sprig_footer {
+    cursor: pointer;
+}
+
+.footer_product {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 13px;
+    position: relative;
+    left: 10px;
+}
+
+.product1 {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.product1>a {
+    color: #94A0A4;
+}
+
+.product1>a:hover {
+    color: #F9C600;
+}
+
+.footer_social {
+    display: flex;
+    justify-content: space-between;
+    width: 980px;
+    margin-left: 255px;
+    margin-top: 69px;
+}
+
+.copyright {
+    color: #94A0A4;
+}
+
+.social_icon {
+    display: flex;
+    grid-column-gap: 24px;
+    cursor: pointer;
+}
+
+.shadow:hover {
+    box-shadow: 0 0 15px 5px rgb(249, 198, 0);
+    transition: box-shadow 0.5s, transform 0.5s;
+    border-radius: 50%;
 }
 
 
