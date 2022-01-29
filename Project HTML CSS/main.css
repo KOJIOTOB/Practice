@@ -2,10 +2,15 @@
 
 body {
     margin: 0;
+    background: #E5E5E5;
 }
 
 a {
     text-decoration: none;
+}
+
+.white {
+    background: #FFFFFF;;
 }
 
 .container {
@@ -24,13 +29,19 @@ a {
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
+    height: 83px;
+
 }
+
 
 .block-menu {
     width: 600px;
+    height: 10px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
+
+
 
 .nav-menu>a {
     color: #000000;
@@ -38,6 +49,67 @@ a {
 
 .nav-menu>a:hover {
     cursor: pointer;
+    color: #F9C600;
+}
+
+.nav_item {
+    display: inline-block;
+}
+
+.nav_item>ul {
+    position: absolute;
+}
+
+.accordion-btn {
+    cursor: pointer;
+}
+
+.accordion-btn:hover {
+    color: #F9C600;
+}
+
+input[type="radio"]:checked+ ul {
+    max-height: 150px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 1),
+    -23px 0 20px -23px rgba(0, 0, 0, .8),
+    23px 0 20px -23px rgba(0, 0, 0, .8),
+    0 0 40px rgba(0, 0, 0, .1) inset;
+    transition: 1s, box-shadow 0.1s, transform 1.5s;
+    position: relative;
+    list-style: none;
+    top: 5px;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.accordion-input {
+    cursor: pointer;
+    appearance: none;
+}
+
+.accordion-text {
+    max-height: 0;
+    width: 90px;
+    overflow: hidden;
+    transition:  all linear .5s;
+    list-style: none;
+    box-sizing: border-box;
+    position: relative;
+    padding: 0;
+
+}
+
+.accordion-text> li a {
+    text-decoration: none;
+    color: #0B2330;
+
+}
+
+.accordion-text> li a:hover {
     color: #F9C600;
 }
 
@@ -68,8 +140,12 @@ a {
     border-radius: 4px;
 }
 
-.btn-black>a:hover {
-    color: #F9C600;
+.btn-black:hover {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 1),
+    -23px 0 20px -23px rgba(0, 0, 0, .8),
+    23px 0 20px -23px rgba(0, 0, 0, .8),
+    0 0 40px rgba(0, 0, 0, .1) inset;
+    transition: box-shadow 0.1s, transform 0.5s;
 }
 
 .btn-black>a {
@@ -79,6 +155,8 @@ a {
 .vector {
     margin-left: 8px;
     cursor: pointer;
+    position: relative;
+    top: -3px;
 }
 
 .main {
@@ -124,11 +202,19 @@ a {
     align-items: center;
     border-radius: 4px;
     color: #0B2330;
-
+    cursor: pointer;
 }
 
 .btn-yellow>a{
     color: #0B2330;
+}
+
+.btn-yellow:hover {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 1),
+    -23px 0 20px -23px rgba(0, 0, 0, .8),
+    23px 0 20px -23px rgba(0, 0, 0, .8),
+    0 0 40px rgba(0, 0, 0, .1) inset;
+    transition: box-shadow 0.1s, transform 0.5s;
 }
 
 .btn-talk>a {
@@ -144,14 +230,15 @@ a {
     border-radius: 4px;
     border: 1px solid #0B2330;
     margin-left: 16px;
+    cursor: pointer;
 }
 
-.btn-talk>a:hover {
-    color: #F9C600;
-}
-
-.btn-yellow>a:hover {
-    color: #ffffff;
+.btn-talk:hover {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 1),
+    -23px 0 20px -23px rgba(0, 0, 0, .8),
+    23px 0 20px -23px rgba(0, 0, 0, .8),
+    0 0 40px rgba(0, 0, 0, .1) inset;
+    transition: box-shadow 0.1s, transform 0.5s;
 }
 
 .yellow-block-img {
@@ -215,16 +302,24 @@ a {
 }
 
 .pointer:hover{
-    border: 3px solid #F9C600;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 1),
+    -23px 0 20px -23px rgba(0, 0, 0, .8),
+    23px 0 20px -23px rgba(0, 0, 0, .8),
+    0 0 40px rgba(0, 0, 0, .1) inset;
+    transition: box-shadow 0.1s, transform 0.5s;
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
 }
 
 
 .container-bike {
-    margin-top: 192px;
+    margin: 192px auto;
     display: flex;
     height: 494px;
     background: #51CEBC;
     border-radius: 10px;
+    width: 1336px;
 
 }
 
@@ -281,22 +376,28 @@ a {
     border-radius: 4px;
     color: #0B2330;
     margin-top: 80px;
+    cursor: pointer;
 }
 
 .btn-sprig>a{
     color: #0B2330;
 }
 
-.btn-sprig>a:hover {
-    color: #ffffff;
+.btn-sprig:hover {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 1),
+    -23px 0 20px -23px rgba(0, 0, 0, .8),
+    23px 0 20px -23px rgba(0, 0, 0, .8),
+    0 0 40px rgba(0, 0, 0, .1) inset;
+    transition: box-shadow 0.1s, transform 0.5s;
 }
 
 .container-target {
     margin-top: 176px;
-    width: 1260px;
+    width: 1220px;
     height: 537px;
     background: #BD78F0;
     position: relative;
+    right: 32px;
     float: right;
     display: flex;
     flex-direction: row;
@@ -431,14 +532,19 @@ a {
     border-radius: 4px;
     position: relative;
     top: 60px;
+    cursor: pointer;
 }
 
 .btn-contextual>a {
     color: #0B2330;
 }
 
-.btn-contextual>a:hover {
-    color: #F9C600;
+.btn-contextual:hover {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 1),
+    -23px 0 20px -23px rgba(0, 0, 0, .8),
+    23px 0 20px -23px rgba(0, 0, 0, .8),
+    0 0 40px rgba(0, 0, 0, .1) inset;
+    transition: box-shadow 0.1s, transform 0.5s;
 }
 
 .box-video {
@@ -469,6 +575,7 @@ a {
     height: 500px;
     position: relative;
     bottom: 250px;
+
 }
 
 .icon-concept {
@@ -480,6 +587,7 @@ a {
     justify-content: center;
     align-items: center;
     position: relative;
+
 }
 
 .icon-speed {
@@ -501,6 +609,16 @@ a {
     position: relative;
     top: -370px;
 
+}
+
+.images-contextual {
+    position: relative;
+    right: 19px;
+}
+
+.image20 {
+    position: relative;
+    right: 32px;
 }
 
 .btn-grey {
@@ -615,6 +733,7 @@ a {
 
 .btn-more>img {
     margin-left: 20px;
+    cursor: pointer;
 }
 
 .gray_line {
@@ -666,6 +785,8 @@ a {
     flex-wrap: nowrap;
     justify-content: space-between;
     height: 400px;
+    position: relative;
+    left: 148px;
 }
 
 .box_integration {
@@ -702,6 +823,7 @@ a {
     justify-content: center;
     align-items: center;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .btn_integrations>a {
@@ -709,8 +831,11 @@ a {
 }
 
 .btn_integrations:hover {
-    box-shadow: 0 0 20px 0 rgb(249, 198, 0);
-    transition: box-shadow 0.5s, transform 0.5s;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 1),
+    -23px 0 20px -23px rgba(0, 0, 0, .8),
+    23px 0 20px -23px rgba(0, 0, 0, .8),
+    0 0 40px rgba(0, 0, 0, .1) inset;
+    transition: box-shadow 0.1s, transform 0.5s;
 }
 
 .box_case-study {
@@ -767,21 +892,19 @@ a {
     border-radius: 4px;
     position: relative;
     top: 16px;
+    cursor: pointer;
 }
 
 .btn_read-more>a {
     color: #0B2330;
 }
 
-.btn_read-more {
-    transform: scale(1);
-    box-shadow: 0 0 5px 5px rgba(34, 60, 80, 0.2);
-    transition: box-shadow 0.5s, transform 0.5s;
-}
-
 .btn_read-more:hover {
-    box-shadow: 0 0 15px 7px rgba(34, 60, 80, 0.2);
-    transition: box-shadow 0.5s, transform 0.5s;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 1),
+    -23px 0 20px -23px rgba(0, 0, 0, .8),
+    23px 0 20px -23px rgba(0, 0, 0, .8),
+    0 0 40px rgba(0, 0, 0, .1) inset;
+    transition: box-shadow 0.1s, transform 0.5s;
 }
 
 .block_yellow-hero {
@@ -789,6 +912,12 @@ a {
     height: 584px;
     background: #F9C600;
     margin-bottom: 46px;
+
+}
+
+.vect-yellow {
+    z-index: 9999;
+    position: relative;
 }
 
 .title_yellow-sprig {
@@ -798,6 +927,7 @@ a {
     position: relative;
     bottom: 150px;
     left: 116px;
+
 }
 
 .block_hero {
@@ -863,6 +993,7 @@ a {
     align-items: center;
     border-radius: 4px;
     color: #0B2330;
+    cursor: pointer;
 }
 
 .btn_footer>a {
@@ -871,8 +1002,11 @@ a {
 
 
 .btn_footer:hover {
-    box-shadow: 0 0 15px 0 rgb(249, 198, 0);
-    transition: box-shadow 0.5s, transform 0.5s;
+    box-shadow: 0 1px 20px rgba(249, 198, 0),
+    -23px 0 20px -23px rgba(249, 198, 0),
+    23px 0 20px -23px rgb(249, 198, 0),
+    0 0 40px rgba(249, 198, 0) inset;
+    transition: box-shadow 0.1s, transform 0.5s;
 }
 
 .link_grey_footer {
@@ -934,7 +1068,7 @@ a {
 
 .shadow:hover {
     box-shadow: 0 0 15px 5px rgb(249, 198, 0);
-    transition: box-shadow 0.5s, transform 0.5s;
+    transition: box-shadow 0.1s, transform 0.5s;
     border-radius: 50%;
 }
 
